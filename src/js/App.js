@@ -1,7 +1,5 @@
 import React from "react";
 
-// import ReactDOM from "react-dom";
-
 import "../css/footer.css";
 import "../css/App.css";
 import Navbar from "./navbar";

@@ -3,13 +3,10 @@ import "../css/box.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  //   faYoutube,
   faFacebook,
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-// import scrollbar from "../scrollbar";
-// import ReactDOM from "react-dom";
 let toggle = () => {
   let detail = document.querySelector(".event-details");
   detail.classList.toggle("details-active");
@@ -21,10 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="heading">
-        {/* <div  className="sparkle u-hovsparkleer--"> */}
-        {/* <h1 className="sparkle u-hovsparkleer--"> */}
         <h3>Socail Media Feeds</h3>
-        {/* </div> */}
       </div>
 
       <div className="rectangle">
@@ -37,11 +31,8 @@ function App() {
         <div className=" fb">
           <h2>FACEBOOK FEEDS</h2>
 
-          {/* <div className="scrollbox">  */}
           <div className="up-events">
             ==
-            {/* <div className="up-events-content">
-              <div className="events-list"> */}
             <div className="container">
               <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBytecodeLearners-103644071079006%2F&tabs=timeline&width=310&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
@@ -51,12 +42,9 @@ function App() {
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
               ></iframe>
             </div>
-            {/* </div>
-            </div> */}
           </div>
         </div>
 
-        {/* </div> */}
       </div>
 
       <div className="rectangle1">
@@ -71,8 +59,6 @@ function App() {
           <scrollbar>
             <div className="up-events">
               ==
-              {/* <div className="up-events-content">
-              <div className="events-list"> */}
               <div className="container">
                 <div className="scroller">
                   <ul>
@@ -80,17 +66,11 @@ function App() {
                       src="https://apps.elfsight.com/p/platform.js"
                       defer
                     ></script>
-                    <div class="elfsight-app-374005f4-2ae5-4d39-a083-d8f560628e8c"></div>
-                    {/* <script
-                    src="https://apps.elfsight.com/p/platform.js"
-                    defer
-                  ></script>
-                  <div className="elfsight-app-374005f4-2ae5-4d39-a083-d8f560628e8c"></div> */}
+                    <div class="elfsight-app-374005f4-2ae5-4d39-a083-d8f560628e8c">
+                      </div>
                   </ul>
                 </div>
               </div>
-              {/* </div>
-            </div> */}
             </div>
           </scrollbar>
         </div>
@@ -105,18 +85,10 @@ function App() {
             >
               <FontAwesomeIcon icon={faTwitter} size="3x" />
             </a>
-            {/* <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" 
-           icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" 
-          url="https://some-website.com/my-social-media-url" size="48" />
-            document.getElementById('root')); */}
           </div>
 
           <h2>TWITTER FEEDS</h2>
           <div className="container">
-            {/* <div className="up-events">
-            ==
-            <div className="up-events-content">
-              <div className="events-list"> */}
             <div className="scroller">
               <ul>
                 <a
@@ -132,11 +104,8 @@ function App() {
                 ></script>
               </ul>
             </div>
-            {/* </div>
-              </div> */}
           </div>
 
-          {/* </div> */}
         </div>
       </div>
     </div>

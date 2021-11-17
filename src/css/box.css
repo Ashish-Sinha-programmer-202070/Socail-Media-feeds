@@ -17,6 +17,14 @@
   width: 100%;
 }
 
+iframe{
+  width: 350px;
+  height: 400px;
+  padding-left: 50px;
+  border: none;
+  overflow: hidden;
+}
+
 .scroller {
   flex: 1;
   background: #aaa;

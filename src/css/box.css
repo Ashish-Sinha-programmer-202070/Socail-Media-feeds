@@ -218,19 +218,26 @@ iframe{
   padding: 0;
 }
 .ions {
-  background: rgb(184, 238, 233);
+  background-color: #4968ad;
   padding: 20px 150px;
 }
-
+.ions1 {
+  background: linear-gradient(130deg, #6e7691 20%, #fd2b93, #ff5819, #ffffff);
+  padding: 20px 150px;
+}
+.ions2 {
+  background-color: #49a1eb;
+  padding: 20px 150px;
+}
 a.facebook {
-  color: #4968ad;
+  color: #f3f4f7;
 }
 
 a.twitter {
-  color: #49a1eb;
+  color: #f3f4f7;
 }
 
 a.instagram {
-  color: black;
+  color: linear-gradient(130deg, #365adb 20%, #fd2b93, #ff5819, #ffffff);;
 }
 

@@ -49,7 +49,7 @@ function App() {
 
       <div className="rectangle1">
         <div className=" inst">
-          <div className="ions">
+          <div className="ions1">
             <a href="#" className="instagram social">
               <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
@@ -78,7 +78,7 @@ function App() {
 
       <div className="rectangle2">
         <div className=" twit">
-          <div className="ions">
+          <div className="ions2">
             <a
               href="https://twitter.com/ByteCodeLearner?ref_src=twsrc%5Etfw"
               className="twitter social"
